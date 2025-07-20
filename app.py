@@ -1,6 +1,7 @@
 import streamlit as st
 import numpy as np
 import joblib
+import pandas as pd
 
 # Load model and encoders
 model = joblib.load('dataset.pkl')
